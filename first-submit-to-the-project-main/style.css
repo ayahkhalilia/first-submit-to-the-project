@@ -42,3 +42,25 @@ header {
     background-color:#B3D1FF;
 }
 
+#logo {
+    width: 163px;
+    height: 120px;
+}
+
+header h1 {
+    padding-top: 43px;
+    color: white;
+}
+
+header h2 {
+    padding-left: 950px;
+    padding-top: 43px;
+    color: white;
+}
+
+#danialimg {
+    width: 88px;
+    height: 86px;
+    padding-left: 10px;
+    padding-top: 13px;
+}
