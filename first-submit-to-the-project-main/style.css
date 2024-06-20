@@ -54,7 +54,8 @@ header h1 {
 
 header h2 {
     padding-left: 950px;
-    padding-top: 43px;
+    padding-top: 47px;
+    font-weight: lighter;
     color: white;
 }
 
@@ -62,5 +63,17 @@ header h2 {
     width: 88px;
     height: 86px;
     padding-left: 10px;
-    padding-top: 13px;
+    padding-top: 16px;
+}
+
+main h2 {
+    padding-left: 30px;
+    padding-top: 19px;
+    font-weight: lighter;
+}
+
+main h4 {
+    color: #0C59CF;
+    padding-left: 30px;
+    font-weight: lighter;
 }
