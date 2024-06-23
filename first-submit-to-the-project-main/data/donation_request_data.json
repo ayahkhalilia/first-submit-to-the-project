@@ -1,0 +1,69 @@
+[
+    {
+        "name": "Karen Smith",
+        "item": {
+            "shirts": 3,
+            "pants": 2,
+            "shoes": 1
+        },
+        "image": ""
+    },
+
+    {
+        "name": "William Long",
+        "item": {
+            "jackets": 5,
+            "shoes": 3
+        },
+        "image": ""
+    },
+    {
+        "name": "Liam Peterson",
+        "item": {
+            "shirts": 4,
+            "pants": 5,
+            "suits": 3
+        },
+        "image": ""
+    },
+
+    {
+        "name": "Maria Kyle",
+        "item": {
+            "baby shoes": 1,
+            "baby clothes": 1
+        },
+        "image": ""
+    },
+
+    {
+        "name": "Mason Young",
+        "item": {
+            "shorts": 4,
+            "pants": 3,
+            "sport shoes": 2
+        },
+        "image": ""
+    },
+
+    {
+        "name": "Nami Evir",
+        "item": {
+            "shirts": 3,
+            "pants": 2,
+            "shoes": 1
+        },
+        "image": ""
+    },
+
+    {
+        "name": "Linda Miller",
+        "item": {
+            "shirts": 3,
+            "pants": 2,
+            "shoes": 1
+        },
+        "image": ""
+    }
+]
+
