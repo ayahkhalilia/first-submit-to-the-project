@@ -119,7 +119,7 @@ main h4 {
 
 #profile-rectangle {
     padding-top: 263px;
-    padding-left: 81px;    
+    padding-left: 81px;  
 }
 
 #rectangle1{
@@ -127,6 +127,185 @@ main h4 {
     height: 513px;
     background-color: #B3D1FF;
     border-radius:  30px;
+}
+
+#yael-img {
+    width: 141px;
+    height: 140px;
+    position: absolute;
+    padding-left: 183px;
+    padding-top: 190px;
+}
+
+#pin-img {
+    width: 30px;
+    height: 29.97px;
+    position: absolute;
+    padding-left: 375px;
+    padding-top: 275px;
+}
+
+#yael-info {
+    position: absolute;
+
+}
+
+#yael-info h2 {
+    padding-left: 195px;
+    padding-top: 340px;
+    position:fixed;
+}
+
+#tel-aviv h3 {
+    padding-top: 372px;
+    padding-left: 223px;
+    position: fixed;
+}
+
+#message-img {
+    width: 40px;
+    height: 40px;
+    padding-left: 144px;
+    padding-top: 410px;
+}
+
+#phone-img {
+    width: 30px;
+    height: 34px;
+    padding-left: 61px;
+    padding-top: 410px;
+} 
+
+#whatsapp-img {
+    width: 30px;
+    height: 34px;
+    padding-left: 61px;
+    padding-top: 410px;
+}
+
+#imgs-text {
+   position: absolute;
+   padding-top: 446px;
+}
+
+#imgs-text h4 {
+   padding-left: 127px;
+   color: black;
+   
+}
+
+#imgs-text p {
+   justify-content: space-between;
+   padding-left: 14px;
+}
+
+#email-img {
+    width: 26px;
+    height: 24px;
+    position: absolute;
+    padding-left: 137px;
+    padding-top: 475px;
+}
+
+#email-text {
+    position: absolute;
+    padding-top: 478px;
+    padding-left: 169px;
+}
+
+#age {
+    color: black;
+    position: absolute;
+    padding-left: 130px;
+    padding-top: 523px;
+}
+
+#white-rec-base {
+    position: absolute;
+    flex-direction: column;
+    margin-left: 176px;
+    
+}
+
+#white-rec1 {  
+    margin-top: 519px;
+    width: 198px;
+    height: 30px;
+    background-color: white;
+    border-radius: 3px;
+    
+}
+
+#white-rec2 {
+    width: 198px;
+    height: 30px;
+    background-color: white;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+#age-num {
+   color: #606060;
+   position: absolute;
+   padding-left: 258px;
+   padding-top: 524px;
+}
+
+#kids {
+    color: black;
+    position: absolute;
+    padding-left: 130px;
+    padding-top: 573px;
+}
+
+#kids-num {
+    color: #606060;
+    position: absolute;
+    padding-left: 263px;
+    padding-top: 574px;
+}
+
+#rec-wrapper {
+    position: absolute;
+    margin-left: 130px;
+    flex-direction: column;
+}
+
+#clothes-request {
+    margin-top: 614px;
+}
+
+#big-white-rectangle1 {
+    background-color: white; 
+    width: 242px;
+    height: 30px;
+    border-radius: 3px;
+    margin-top: 11px;
+
+}
+
+#big-white-rectangle2 {
+    width: 242px;
+    height: 30px;
+    background-color: white;
+    border-radius: 3px;
+    margin-top: 11px;
+}
+
+#address-text {
+    margin-top: 11px;
+}
+
+#clothes-details {
+    margin-left: 4px;
+    color: #606060;
+    margin-top: -94px;
+}
+
+#address-detail {
+    margin-left: 4px;
+    color: #606060;
+    margin-top: 53px;
 }
 
 #inside-big-rec {
