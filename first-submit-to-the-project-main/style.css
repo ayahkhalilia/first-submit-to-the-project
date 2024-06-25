@@ -308,6 +308,20 @@ main h4 {
     margin-top: 53px;
 }
 
+#history {
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    padding-left: 99px;
+    padding-top: 781px;
+}
+
+#history-text {
+    position: absolute;
+    padding-top: 786px;
+    padding-left: 133px;
+}
+
 #inside-big-rec {
     padding-left: 75px;
     padding-top: 130px;
