@@ -4,11 +4,10 @@
 }
 
 header, main, footer, nav, aside, section, article, div {
-    display: block;
+    display: flex;
 }
 
 body {
-    justify-content: center;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -40,16 +39,23 @@ header {
     height: 120px;
     display: flex;
     background-color:#B3D1FF;
+    justify-content: space-between;
 }
+
 
 #logo {
     width: 163px;
     height: 120px;
+    position: absolute;
 }
 
 header h1 {
-    padding-top: 43px;
-    color: white;
+    color: rgb(255, 255, 255);
+    top:30px;
+    left:158px;
+    height: 68px;
+    font-size: 48px;
+    position: relative;
 }
 
 header h2 {
@@ -59,11 +65,25 @@ header h2 {
     color: white;
 }
 
+#left_content_for_header {
+    display: flex;
+    position: relative;
+}
+
+header h2 {
+    font-weight: lighter;
+    color: white;
+    top:47px;
+    right: 30px;
+    position: relative;
+}
+
 #danialimg {
     width: 88px;
     height: 86px;
-    padding-left: 10px;
-    padding-top: 16px;
+    top:17px;
+    right:22px;
+    position: relative;
 }
 
 main h2 {
