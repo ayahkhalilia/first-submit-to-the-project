@@ -368,7 +368,30 @@ main h4 {
     justify-content: center;
 
 }
+#accept_rectangle{
+    width: 207px;
+    height: 30px;
+    background-color: #5DC072;
+    border-radius: 3px;
+    left: 151px ;
+    top: 813px;
+    position: fixed;
+    justify-content: center;
+    display: flex;
+}
 
+#decline_rectangle{
+    width: 207px;
+    height: 30px;
+    background-color: #FF1800;
+    border-radius: 3px;
+    left: 151px ;
+    top: 850px;
+    position: fixed;
+    justify-content: center;
+    display: flex;
+
+}
 #rectangle_2{
     width: 426px;
     height: 690px;
@@ -384,6 +407,23 @@ justify-content: center;
 align-items: center;
  
 }
+.circle{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: #3D8BFD;
+    color: #ffffff;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+.image{
+    width: 90px;
+    height: 90px;
+    margin: 0 3px;
+}
+
 #rectangle_3{
     width: 360px;
     height: 297px;
@@ -414,27 +454,4 @@ padding: 20px;
     
 
 }
-#accept_rectangle{
-    width: 207px;
-    height: 30px;
-    background-color: #5DC072;
-    border-radius: 3px;
-    left: 151px ;
-    top: 813px;
-    position: fixed;
-    justify-content: center;
-    display: flex;
-}
 
-#decline_rectangle{
-    width: 207px;
-    height: 30px;
-    background-color: #FF1800;
-    border-radius: 3px;
-    left: 151px ;
-    top: 850px;
-    position: fixed;
-    justify-content: center;
-    display: flex;
-
-}
