@@ -396,3 +396,45 @@ align-items: center;
     left:1001px;
     top: 383px;
 }
+#RecentRequest{
+    width: 266px;
+   height: 129px;
+   background-color: #ffffff;
+   border-radius:  13px;
+   left: 120px ;
+   top: 664px;
+   position: fixed;
+   box-sizing: border-box;
+   margin-top: 20px;
+padding: 20px;
+}
+#RecentRequest h2{
+    top: 133x;
+    left: 672px;
+    
+
+}
+#accept_rectangle{
+    width: 207px;
+    height: 30px;
+    background-color: #5DC072;
+    border-radius: 3px;
+    left: 151px ;
+    top: 813px;
+    position: fixed;
+    justify-content: center;
+    display: flex;
+}
+
+#decline_rectangle{
+    width: 207px;
+    height: 30px;
+    background-color: #FF1800;
+    border-radius: 3px;
+    left: 151px ;
+    top: 850px;
+    position: fixed;
+    justify-content: center;
+    display: flex;
+
+}
