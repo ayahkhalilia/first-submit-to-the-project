@@ -464,9 +464,140 @@ align-items: center;
    margin-top: 20px;
 padding: 20px;
 }
+
 #RecentRequest h2{
     top: 133x;
     left: 672px;
     
 
 }
+
+#request-details {
+    position: absolute;
+    font-size: 30px;
+    margin-top: 32px;
+    margin-left: 40px;
+}
+
+#ask-for {
+    position: absolute;
+    font-size: 25px;
+    margin-left: 40px;
+    margin-top: 91px;
+}
+
+#ask-for-form {
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 126px;
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    flex-direction: column;
+}
+
+#first-two-options {
+    margin-right: 5px;
+}
+
+#second-two-options {
+    margin-right: 5px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Space between pairs */
+    margin-bottom: 10px; /* Space between rows */
+}
+
+input[type="radio"] {
+    margin-right: 5px; /* Space between radio button and label */
+}
+
+#girls{
+    margin-right: 0px;
+}
+
+#details-form {
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 212px;
+}
+
+select[name="age"] {
+    width: 200px;
+    height: 30px;
+}
+
+select[name="type"] {
+    width: 200px;
+    height: 30px;
+}
+
+select[name="size"] {
+    width: 200px;
+    height: 30px;
+}
+
+select[name="color"] {
+    width: 200px;
+    height: 30px;
+}
+
+
+#classification {
+    position: absolute;
+    margin-top: 400px;
+}
+
+
+input[type="submit"] {
+    height: 29px;
+    width: 222px;
+    background-color: #3D8AF7;
+    border-color: #3D8AF7;
+    color: white;
+}
+
+
+
+#request-white-rec {
+    position: absolute;
+}
+
+#rec-size {
+    width: 447px;
+    height: 533px;
+    background-color: white;
+    border-radius: 24px;
+    margin-left: 380px;
+    margin-top: 60px;
+}
+
+#no-clothes-img {
+    width: 86px;
+    height: 86px;
+    position: absolute;
+    margin-left: 561px;
+    margin-top: 246px;
+}
+
+#no-clothes {
+    position: absolute;
+    margin-left: 461px;
+    font-size: 24px;
+    margin-top: 338px;
+}
+
+#save-bttn {
+    position: absolute;
+    width: 286px;
+    height: 44px;
+    margin-left: 461px;
+    margin-top: 599px;
+    font-size: 24px;
+    border-color: #3D8AF7;
+}
+
