@@ -352,3 +352,47 @@ main h4 {
     padding: 20px;
     border-radius:  30px;
 }
+
+#rectangle_1{
+    width: 344px;
+    height: 513px;
+    background-color: #B3D1FF;
+    border: 30px;
+    margin: 20px;
+    padding: 20px;
+    border-radius:  30px;
+    position: fixed;
+    left:81px;
+    top: 383px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#rectangle_2{
+    width: 426px;
+    height: 690px;
+    background-color: #B3D1FF;
+    border: 30px;
+    margin: 20px;
+    padding: 20px;
+    border-radius:  30px;
+    position: fixed;
+    left:500px;
+    top: 250px;
+justify-content: center;
+align-items: center;
+ 
+}
+#rectangle_3{
+    width: 360px;
+    height: 297px;
+    background-color: #B3D1FF;
+    border: 30px;
+    margin: 20px;
+    padding: 20px;
+    border-radius:  30px;
+    position: fixed;
+    left:1001px;
+    top: 383px;
+}
