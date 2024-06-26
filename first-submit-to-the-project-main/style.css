@@ -334,6 +334,21 @@ main h4 {
     border-radius: 30px;
 }
 
+#request-details {
+    position: absolute;
+    font-size: 30px;
+    margin-top: 32px;
+    margin-left: 40px;
+}
+
+#ask-for {
+    position: absolute;
+    font-size: 25px;
+    margin-left: 40px;
+    margin-top: 91px;
+}
+
+
 #rectangle2{
     width: 426px;
     height: 690px;
