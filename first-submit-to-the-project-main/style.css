@@ -436,6 +436,22 @@ align-items: center;
     left:1001px;
     top: 383px;
 }
+#check_the_date_rectangle
+{
+    width:207px ;
+    height: 30px;
+    background-color: #3D8AF7;
+    border-radius: 3px;
+    left: 1075px ;
+    top: 609px;
+    position: fixed;
+    justify-content: center;
+    display: flex;
+    color: #ffffff;
+ 
+}
+
+
 #RecentRequest{
     width: 266px;
    height: 129px;
