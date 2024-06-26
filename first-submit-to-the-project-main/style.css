@@ -39,8 +39,7 @@ header {
     height: 120px;
     display: flex;
     background-color:#B3D1FF;
-    justify-content: space-between;
-    
+    justify-content: space-between;   
 }
 
 #right_header{
@@ -153,13 +152,13 @@ main h4 {
 #yael-info h2 {
     padding-left: 195px;
     padding-top: 340px;
-    position:fixed;
+    position:absolute;
 }
 
 #tel-aviv h3 {
     padding-top: 372px;
     padding-left: 223px;
-    position: fixed;
+    position: absolute;
 }
 
 #message-img {
@@ -334,6 +333,135 @@ main h4 {
     border-radius: 30px;
 }
 
+#request-details {
+    position: absolute;
+    font-size: 30px;
+    margin-top: 32px;
+    margin-left: 40px;
+}
+
+#ask-for {
+    position: absolute;
+    font-size: 25px;
+    margin-left: 40px;
+    margin-top: 91px;
+}
+
+#ask-for-form {
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 126px;
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    flex-direction: column;
+}
+
+#first-two-options {
+    margin-right: 5px;
+}
+
+#second-two-options {
+    margin-right: 5px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Space between pairs */
+    margin-bottom: 10px; /* Space between rows */
+}
+
+input[type="radio"] {
+    margin-right: 5px; /* Space between radio button and label */
+}
+
+#girls{
+    margin-right: 0px;
+}
+
+#details-form {
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 212px;
+}
+
+select[name="age"] {
+    width: 200px;
+    height: 30px;
+}
+
+select[name="type"] {
+    width: 200px;
+    height: 30px;
+}
+
+select[name="size"] {
+    width: 200px;
+    height: 30px;
+}
+
+select[name="color"] {
+    width: 200px;
+    height: 30px;
+}
+
+
+#classification {
+    position: absolute;
+    margin-top: 400px;
+}
+
+
+input[type="submit"] {
+    height: 29px;
+    width: 222px;
+    background-color: #3D8AF7;
+    border-color: #3D8AF7;
+    color: white;
+}
+
+
+
+#request-white-rec {
+    position: absolute;
+}
+
+#rec-size {
+    width: 447px;
+    height: 533px;
+    background-color: white;
+    border-radius: 24px;
+    margin-left: 380px;
+    margin-top: 60px;
+}
+
+#no-clothes-img {
+    width: 86px;
+    height: 86px;
+    position: absolute;
+    margin-left: 561px;
+    margin-top: 246px;
+}
+
+#no-clothes {
+    position: absolute;
+    margin-left: 461px;
+    font-size: 24px;
+    margin-top: 338px;
+}
+
+#save-bttn {
+    position: absolute;
+    width: 286px;
+    height: 44px;
+    margin-left: 461px;
+    margin-top: 599px;
+    font-size: 24px;
+    border-color: #3D8AF7;
+}
+
 #rectangle2{
     width: 426px;
     height: 690px;
@@ -351,123 +479,5 @@ main h4 {
     margin: 20px;
     padding: 20px;
     border-radius:  30px;
-}
-
-#rectangle_1{
-    width: 344px;
-    height: 513px;
-    background-color: #B3D1FF;
-    border: 30px;
-    margin: 20px;
-    padding: 20px;
-    border-radius:  30px;
-    position: fixed;
-    left:81px;
-    top: 383px;
-    display: flex;
-    justify-content: center;
-
-}
-#accept_rectangle{
-    width: 207px;
-    height: 30px;
-    background-color: #5DC072;
-    border-radius: 3px;
-    left: 151px ;
-    top: 813px;
-    position: fixed;
-    justify-content: center;
-    display: flex;
-}
-
-#decline_rectangle{
-    width: 207px;
-    height: 30px;
-    background-color: #FF1800;
-    border-radius: 3px;
-    left: 151px ;
-    top: 850px;
-    position: fixed;
-    justify-content: center;
-    display: flex;
-
-}
-#rectangle_2{
-    width: 426px;
-    height: 690px;
-    background-color: #B3D1FF;
-    border: 30px;
-    margin: 20px;
-    padding: 20px;
-    border-radius:  30px;
-    position: fixed;
-    left:500px;
-    top: 250px;
-justify-content: center;
-align-items: center;
- 
-}
-.circle{
-    width: 22px;
-    height: 22px;
-    border-radius: 50%;
-    background-color: #3D8BFD;
-    color: #ffffff;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-
-}
-.image{
-    width: 90px;
-    height: 90px;
-    margin: 0 3px;
-}
-
-#rectangle_3{
-    width: 360px;
-    height: 297px;
-    background-color: #B3D1FF;
-    border: 30px;
-    margin: 20px;
-    padding: 20px;
-    border-radius:  30px;
-    position: fixed;
-    left:1001px;
-    top: 383px;
-}
-#check_the_date_rectangle
-{
-    width:207px ;
-    height: 30px;
-    background-color: #3D8AF7;
-    border-radius: 3px;
-    left: 1075px ;
-    top: 609px;
-    position: fixed;
-    justify-content: center;
-    display: flex;
-    color: #ffffff;
- 
-}
-
-
-#RecentRequest{
-    width: 266px;
-   height: 129px;
-   background-color: #ffffff;
-   border-radius:  13px;
-   left: 120px ;
-   top: 664px;
-   position: fixed;
-   box-sizing: border-box;
-   margin-top: 20px;
-padding: 20px;
-}
-#RecentRequest h2{
-    top: 133x;
-    left: 672px;
-    
-
 }
 
