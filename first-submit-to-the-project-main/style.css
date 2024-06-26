@@ -39,7 +39,8 @@ header {
     height: 120px;
     display: flex;
     background-color:#B3D1FF;
-    justify-content: space-between;   
+    justify-content: space-between;
+    
 }
 
 #right_header{
@@ -152,13 +153,13 @@ main h4 {
 #yael-info h2 {
     padding-left: 195px;
     padding-top: 340px;
-    position:absolute;
+    position:fixed;
 }
 
 #tel-aviv h3 {
     padding-top: 372px;
     padding-left: 223px;
-    position: absolute;
+    position: fixed;
 }
 
 #message-img {
@@ -333,6 +334,144 @@ main h4 {
     border-radius: 30px;
 }
 
+#rectangle2{
+    width: 426px;
+    height: 690px;
+    background-color: #B3D1FF;
+    border: 30px;
+    margin: 20px;
+    padding: 20px;
+    border-radius:  30px;
+}
+#rectangle3{
+    width: 360px;
+    height: 297px;
+    background-color: #B3D1FF;
+    border: 30px;
+    margin: 20px;
+    padding: 20px;
+    border-radius:  30px;
+}
+
+#rectangle_1{
+    width: 344px;
+    height: 513px;
+    background-color: #B3D1FF;
+    border: 30px;
+    margin: 20px;
+    padding: 20px;
+    border-radius:  30px;
+    position: fixed;
+    left:81px;
+    top: 383px;
+    display: flex;
+    justify-content: center;
+
+}
+#accept_rectangle{
+    width: 207px;
+    height: 30px;
+    background-color: #5DC072;
+    border-radius: 3px;
+    left: 151px ;
+    top: 813px;
+    position: fixed;
+    justify-content: center;
+    display: flex;
+}
+
+#decline_rectangle{
+    width: 207px;
+    height: 30px;
+    background-color: #FF1800;
+    border-radius: 3px;
+    left: 151px ;
+    top: 850px;
+    position: fixed;
+    justify-content: center;
+    display: flex;
+
+}
+#rectangle_2{
+    width: 426px;
+    height: 690px;
+    background-color: #B3D1FF;
+    border: 30px;
+    margin: 20px;
+    padding: 20px;
+    border-radius:  30px;
+    position: fixed;
+    left:500px;
+    top: 250px;
+justify-content: center;
+align-items: center;
+ 
+}
+.circle{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: #3D8BFD;
+    color: #ffffff;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+.image{
+    width: 90px;
+    height: 90px;
+    margin: 0 3px;
+}
+
+#rectangle_3{
+    width: 360px;
+    height: 297px;
+    background-color: #B3D1FF;
+    border: 30px;
+    margin: 20px;
+    padding: 20px;
+    border-radius:  30px;
+    position: fixed;
+    left:1001px;
+    top: 383px;
+}
+#check_the_date_rectangle
+{
+    width:207px ;
+    height: 30px;
+    background-color: #3D8AF7;
+    border-radius: 3px;
+    left: 1075px ;
+    top: 609px;
+    position: fixed;
+    justify-content: center;
+    display: flex;
+    color: #ffffff;
+ 
+}
+
+
+#RecentRequest{
+    width: 266px;
+   height: 129px;
+   background-color: #ffffff;
+   border-radius:  13px;
+   left: 120px ;
+   top: 664px;
+   position: fixed;
+   box-sizing: border-box;
+   margin-top: 20px;
+padding: 20px;
+}
+#RecentRequest h2{
+    top: 133x;
+    left: 672px;
+    
+
+}
+
+
 #request-details {
     position: absolute;
     font-size: 30px;
@@ -460,24 +599,5 @@ input[type="submit"] {
     margin-top: 599px;
     font-size: 24px;
     border-color: #3D8AF7;
-}
-
-#rectangle2{
-    width: 426px;
-    height: 690px;
-    background-color: #B3D1FF;
-    border: 30px;
-    margin: 20px;
-    padding: 20px;
-    border-radius:  30px;
-}
-#rectangle3{
-    width: 360px;
-    height: 297px;
-    background-color: #B3D1FF;
-    border: 30px;
-    margin: 20px;
-    padding: 20px;
-    border-radius:  30px;
 }
 
