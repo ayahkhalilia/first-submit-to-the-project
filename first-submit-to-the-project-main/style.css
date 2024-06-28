@@ -4,7 +4,8 @@
 }
 
 header, main, footer, nav, aside, section, article, div {
-    display: flex;
+    display: block;
+    font-family:Istok web, sans-serif ;
 }
 
 body {
@@ -88,13 +89,154 @@ main h2 {
     padding-left: 30px;
     padding-top: 19px;
     font-weight: lighter;
+    font-size: 36px;
 }
 
 main h4 {
     color: #0C59CF;
     padding-left: 30px;
     font-weight: lighter;
+    font-size: 15px;
 }
+
+#rectangles {
+   position: absolute;
+}
+
+#branch-rectangle {
+    margin-left: 56px;
+    margin-top: 130px;
+    width: 344px;
+    height: 511px;
+    background-color: #B3D1FF;
+    border-radius: 22px;
+    position: absolute;
+    margin-top: 270px;
+}
+
+#haifa-branch {
+    margin-left: 105px;
+    margin-top: -72px;
+}
+
+#haifa-text {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-left: 99px;
+    
+}
+
+#address {
+    color: black;
+    font-size: 15px;
+    margin-top: 12px;
+    margin-left: 89px;
+
+}
+
+#branch-rectangle i {
+    color: black;
+    position: absolute;
+    font-size: 34px;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+
+#phone {
+    position: absolute;
+    padding-left: 110px;
+}
+
+
+
+
+
+
+
+
+#list-rec1 {
+    width: 394px;
+    height: 690px;
+    background-color: #B3D1FF;
+    border-radius: 22px;
+    position: absolute;
+    margin-left: 449px;
+    margin-top: 130px;
+    overflow-y: auto;
+    scrollbar-width: thin; /* Options: auto, thin */
+    scrollbar-color: #B3D1FF white;
+
+}
+
+
+
+#inside-white-rec {
+    background-color: white;
+    width: 390px;
+    height: 84px;
+    position: absolute;
+
+}
+
+h1 {
+    color: black;
+    margin-left: 70px;
+    margin-top: -60px;
+    font-size: 24px;
+}
+
+ul {
+    color: black;
+    list-style-type: none;
+    margin-top: 40px;
+    padding: 4px;
+}
+
+li {
+    background-color: white;
+    margin-top: 2px;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+li img {
+    margin-right: 10px;
+    width: 71px; 
+    height: 72px; 
+
+}
+
+li div {
+    flex: 1;
+}
+
+.search-bar input[type="text"] {
+    font-size: 18px;
+    height: 24px;
+    margin-left: 40px;
+    margin-top: 53px;
+    border-radius: 90px;
+    border: white;
+}
+
+#list-rec2 {
+    width: 394px;
+    height: 690px;
+    background-color: #B3D1FF;
+    border-radius: 22px;
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 130px;
+}
+
+
+
+
+
+
 
 #back-to-homepage {
     position: absolute;
@@ -122,11 +264,12 @@ main h4 {
     padding-left: 81px;  
 }
 
-#rectangle1{
-    width: 344px;
-    height: 513px;
-    background-color: #B3D1FF;
-    border-radius:  30px;
+#pin-img {
+    width: 30px;
+    height: 29.97px;
+    position: absolute;
+    padding-left: 375px;
+    padding-top: 275px;
 }
 
 #yael-img {
@@ -135,14 +278,6 @@ main h4 {
     position: absolute;
     padding-left: 183px;
     padding-top: 190px;
-}
-
-#pin-img {
-    width: 30px;
-    height: 29.97px;
-    position: absolute;
-    padding-left: 375px;
-    padding-top: 275px;
 }
 
 #yael-info {
@@ -463,7 +598,6 @@ input[type="submit"] {
     border-color: #3D8AF7;
 }
 
-
 #rectangle2{
     width: 426px;
     height: 690px;
@@ -473,6 +607,7 @@ input[type="submit"] {
     padding: 20px;
     border-radius:  30px;
 }
+
 #rectangle3{
     width: 360px;
     height: 297px;
@@ -482,3 +617,4 @@ input[type="submit"] {
     padding: 20px;
     border-radius:  30px;
 }
+
