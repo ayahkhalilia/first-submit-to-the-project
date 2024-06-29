@@ -7,12 +7,14 @@
     <title>home page</title>
     <link rel="stylesheet" href="style.css">
     <script src="js/funcs_file.js"> type = "text/javasccript"</script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+
 </head>
 
 <body>
     <header>   
         <div id="logo"><img src="img/logoImg.jpg"></div>
-        <h1>DonoClothes</h1>
+        <h1 id="donoclothes">DonoClothes</h1>
         
       <div id="left_content_for_header">
             <h2>Hi,Danial</h2>
@@ -22,35 +24,35 @@
     <div id="wrapper">
      <main>
         <div id="back-to-homepage">
-          <a href="index.html" class="back-arrow">&larr;</a>
-          <div id="home_img"><img src="img/home-img.png"></div>
+            <a href="index.html" class="back-arrow">&larr;</a>
+            <div id="home_img"><i class="fa-solid fa-house"></i></div>
         </div>
-        <div id="profile-rectangle"> <div id="rectangle1"></div></div>
-        <img id="pin-img" src="img/edit-pin-img.png">
-        <img id="yael-img" src="img/yael's-img.png">
-        <div id="yael-info">
-            <h2>Yael Carter</h2>
-            <div id="tel-aviv"><h3>Tel aviv</h3></div>
-            <img id="message-img" src="img/message-img.png">
-            <img id="phone-img" src="img/phone-img.png">
-            <img id="whatsapp-img" src="img/whatsapp-img.png">
-            <div id="imgs-text">
+        <div id="profile-rectangle">
+          <div id="rectangle1">
+            <div id="pin-img"><i class="fa-solid fa-pen"></i></div>
+            <img id="yael-img" src="img/yael's-img.png">
+            <div id="yael-info">
+              <h2 id="name-yael">Yael Carter</h2>
+              <h3 id="tel-aviv">Tel aviv</h3>
+              <div id="message-img"><i class="fa-solid fa-message"></i></div>
+              <div id="phone-img"><i class="fa-solid fa-phone"></i></div>
+              <div id="whatsapp-img"><i class="fa-brands fa-whatsapp"></i></div>
+              <div id="imgs-text">
                 <h4>Messenger</h4>
-                <p>034326116</p>
-                <p>WhatsApp</p>
-            </div>
-            <img id="email-img" src="img/email-img.png">
-            <p id="email-text">Email:Yael.Carter@gmail.com</p>
-            <h4 id="age">Age :</h4>
-            <div id="white-rec-base"> 
-                <div id="white-rec1"></div>
-                <div id="white-rec2"></div>
-            </div>
-            <h4 id="age-num">43</h4>
-            <h4 id="kids">Kids :</h4>
-            <h4 id="kids-num">4</h4>
-            
-            <div id="rec-wrapper">
+                <p id="number">034326116</p>
+                <p id="whats-app">WhatsApp</p>
+             </div>
+              <div id="mail-img"><i class="fa-regular fa-envelope"></i></div>
+              <p id="email-text">Email:Yael.Carter@gmail.com</p>
+              <h4 id="age">Age :</h4>
+              <div id="white-rec-base"> 
+                  <div id="white-rec1"></div>
+                  <div id="white-rec2"></div>
+              </div>
+              <h4 id="age-num">43</h4>
+              <h4 id="kids">Kids :</h4>
+              <h4 id="kids-num">4</h4>
+              <div id="rec-wrapper">
                 <p id="clothes-request">Normal Clothes request for :</p>
                 <div id="big-white-rectangle1"></div>          
                 <p id="address-text">Address Line :</p>
@@ -58,83 +60,15 @@
                 <p id="clothes-details">Women, kids age( 3,14,15,6)</p> 
                 <p id="address-detail">Matalon 17-19, 2nd floor</p>
             </div>
-            <img id="history" src="img/history-img.png">
+            <div id="history"><i class="fa-solid fa-clock-rotate-left"></i></div>
             <p id="history-text">Requests History</p>
             
         </div>
-        <div id="inside-big-rec">
-            <div id="big-rectangle"></div>
-            <p id="request-details"><b>Request Details</b></p>
-            <p id="ask-for">Ask for :</p>
-            <form id="ask-for-form">
-                <div id="first-two-options">
-                <input type="radio" id="boys" name="ask-for" value="Boys">
-                <label for="boys">Boys</label>
-                <input type="radio" id="girls" name="ask-for" value="Girls">
-                <label for="girls">Girls</label>
-                </div>
-                <div id="second-two-options">
-                <input type="radio" id="men" name="ask-for" value="Men">
-                <label for="men">Men</label>
-                <input type="radio" id="women" name="ask-for" value="Women">
-                <label for="women">Women</label>
-                </div>
-                <label id="age-label">Age &nbsp;
-                    <select name="age">
-                      <option name="1">1</option>
-                      <option name="2">2</option>
-                      <option name="3">3</option>
-                      <option name="4">4</option>
-                    </select>
-                </label>
-                <label id="type-label">Type 
-                    <select name="type">
-                      <option name="1">Dresses</option>
-                      <option name="2">pants</option>
-                      <option name="3">shirts</option>
-                      <option name="4">jackets</option>
-                    </select>
-                </label>
-                <label id="size-label">Size &nbsp;
-                    <select name="size">
-                      <option name="1">1</option>
-                      <option name="2">2</option>
-                      <option name="3">3</option>
-                      <option name="4">4</option>
-                    </select>
-                </label>
-                <label id="color-label">Color
-                    <select name="color">
-                      <option name="1">pink</option>
-                      <option name="2">blue</option>
-                      <option name="3">black</option>
-                      <option name="4">red</option>
-                    </select>
-                </label>
-                <p id="classification">Classification :</p>
-                <div>
-                <input type="radio" id="summer" name="ask-for" value="Summer">
-                <label for="summer">Summer</label>
-                <input type="radio" id="winter" name="ask-for" value="Winter">
-                <label for="winter">Winter</label>
-                </div>
-                <div>
-                <div><input type="radio" id="accessories" name="ask-for" value="Accessories"></div>
-                <label for="accessories">Accessories</label>
-                <input type="radio" id="other" name="ask-for" value="Other">
-                <label for="other">Other</label>
             </div>
-                <input  type="submit" value="Check in storage">
-
-            </form>
-            <div id="request-white-rec">
-                <div id="rec-size"></div>
-                <img id="no-clothes-img" src="img/no-clothes-added-icon.png">
-                <p id="no-clothes">All the clothe in storage</p>
-                <input id="save-bttn" type="submit" value="Save">
-            </div>
-            
+          </div>
         </div>
+        
+        
      </main>
    </div>
 </body>
