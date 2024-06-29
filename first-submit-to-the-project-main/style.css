@@ -85,6 +85,8 @@ header h2 {
     position: relative;
 }
 
+
+/*home and date*/
 main h2 {
     padding-left: 30px;
     padding-top: 19px;
@@ -99,6 +101,7 @@ main h4 {
     font-size: 15px;
 }
 
+/*haifa rectangle*/
 #rectangles {
    position: absolute;
 }
@@ -121,6 +124,7 @@ main h4 {
 
 #haifa-text {
     font-size: 24px;
+    font-weight: lighter;
     margin-top: 10px;
     margin-left: 103px;
     
@@ -225,7 +229,7 @@ main h4 {
 
 
 
-
+/*lists rectangles*/
 #list-rec1 {
     width: 394px;
     height: 690px;
@@ -304,6 +308,7 @@ li div {
 
 a {
     text-decoration: none; 
+    color: black;
 }
 
 
@@ -312,17 +317,17 @@ a {
 
 
 
-
+/*check_what_she_want page arrow*/
 #back-to-homepage {
     position: absolute;
 }
 
-#home_img {
-    width: 38px;
-    height: 38px;
+#home_img i {
+    position: absolute;
     display: flex;
-    padding-left: 7px;
-    padding-top: 22px;
+    margin-left: 80px;
+    margin-top: -33px;
+    font-size: 38px;
 }
 
 .back-arrow {
@@ -330,115 +335,136 @@ a {
     cursor: pointer;
     text-decoration: none;
     display:flex;
-    padding-left: 30px;
-    padding-top: 25px;
+    margin-left: 30px;
+    margin-top: 25px;
 }
 
 #profile-rectangle {
-    padding-top: 263px;
-    padding-left: 81px;  
+    margin-top: 345px;
+    margin-left: 56px;  
 }
 
-#pin-img {
-    width: 30px;
-    height: 29.97px;
+#rectangle1 {
+    width: 344px;
+    height: 513px;
+    background-color: #B3D1FF;
+    border-radius:  22px;
+
+}
+
+#pin-img i {
+    font-size: 30px;
     position: absolute;
-    padding-left: 375px;
-    padding-top: 275px;
+    margin-left: 285px;
+    margin-top: 13px;
 }
 
 #yael-img {
     width: 141px;
     height: 140px;
     position: absolute;
-    padding-left: 183px;
-    padding-top: 190px;
+    margin-left: 103px;
+    margin-top: -70px;
 }
 
 #yael-info {
     position: absolute;
-
+    margin-top: 63px;
+    width: 233px;
 }
 
-#yael-info h2 {
-    padding-left: 195px;
-    padding-top: 340px;
-    position:fixed;
+#name-yael {
+    font-size: 24px;
+    margin-left: 78px;
+    position: absolute;
 }
 
-#tel-aviv h3 {
-    padding-top: 372px;
-    padding-left: 223px;
-    position: fixed;
+#tel-aviv {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 140px;
+    font-size: 15px;
 }
 
-#message-img {
-    width: 40px;
-    height: 40px;
-    padding-left: 144px;
-    padding-top: 410px;
+#yael-info i {
+    position: absolute;
+    font-size: 30px;
+    margin-top: 88px;
+    margin-left: 45px;
 }
 
-#phone-img {
-    width: 30px;
-    height: 34px;
-    padding-left: 61px;
-    padding-top: 410px;
-} 
+#message-img i {
+    position: absolute;
+    font-size: 30px;
+    margin-left: 61px;
+    margin-top: 90px;
+}
 
-#whatsapp-img {
-    width: 30px;
-    height: 34px;
-    padding-left: 61px;
-    padding-top: 410px;
+#phone-img i {
+    position: absolute;
+    margin-left: 151.5px;
+    font-size: 30px;
+}
+
+#whatsapp-img i {
+    position: absolute;
+    font-size: 30px;
+    margin-left: 246px;
 }
 
 #imgs-text {
-   position: absolute;
-   padding-top: 446px;
-}
-
-#imgs-text h4 {
-   padding-left: 127px;
-   color: black;
-   
-}
-
-#imgs-text p {
-   justify-content: space-between;
-   padding-left: 14px;
-}
-
-#email-img {
-    width: 26px;
-    height: 24px;
     position: absolute;
-    padding-left: 137px;
-    padding-top: 475px;
-}
+    margin-top: 122px;
+    justify-content: space-between;
+    display:flex;
+    
+ }
+ 
+ #imgs-text h4 {
+    color: black;
+    font-size: 15px;
+    margin-left: 10px;
+ }
+ 
+ #number {
+    margin-left: 15px;
+    font-size: 16px;
+ }
 
-#email-text {
+ #whats-app {
+    margin-left: 12px;
+    font-size: 16px;
+ }
+
+ #mail-img i{
+    font-size: 24px;
+    margin-top: 147px;
+    margin-left: 60px;
+ }
+
+ #email-text {
     position: absolute;
-    padding-top: 478px;
-    padding-left: 169px;
-}
+    margin-top: 152px;
+    margin-left: 93px;
+    font-size: 14px;
+ }
 
-#age {
+ #age {
     color: black;
     position: absolute;
-    padding-left: 130px;
-    padding-top: 523px;
+    margin-left: 13px;
+    margin-top: 203px;
 }
 
 #white-rec-base {
     position: absolute;
     flex-direction: column;
-    margin-left: 176px;
+    margin-left: 86px;
     
 }
 
 #white-rec1 {  
-    margin-top: 519px;
+    margin-top: 195px;
     width: 208px;
     height: 30px;
     background-color: white;
@@ -454,35 +480,36 @@ a {
     margin-top: 20px;
 }
 
+
 #age-num {
-   color: #606060;
-   position: absolute;
-   padding-left: 258px;
-   padding-top: 524px;
-}
-
-#kids {
-    color: black;
-    position: absolute;
-    padding-left: 130px;
-    padding-top: 573px;
-}
-
-#kids-num {
     color: #606060;
     position: absolute;
-    padding-left: 263px;
-    padding-top: 574px;
-}
+    margin-left: 141px;
+    margin-top: 204px;
+ }
+ 
+ #kids {
+     color: black;
+     position: absolute;
+     margin-left: 13px;
+     margin-top: 253px;
+ }
+ 
+ #kids-num {
+     color: #606060;
+     position: absolute;
+     margin-left: 146px;
+     margin-top: 254px;
+ }
 
-#rec-wrapper {
+ #rec-wrapper {
     position: absolute;
-    margin-left: 130px;
+    margin-left: 43px;
     flex-direction: column;
 }
 
 #clothes-request {
-    margin-top: 614px;
+    margin-top: 287px;
 }
 
 #big-white-rectangle1 {
@@ -494,15 +521,15 @@ a {
 
 }
 
+#address-text {
+    margin-top: 11px;
+}
+
 #big-white-rectangle2 {
     width: 252px;
     height: 30px;
     background-color: white;
     border-radius: 3px;
-    margin-top: 11px;
-}
-
-#address-text {
     margin-top: 11px;
 }
 
@@ -518,178 +545,17 @@ a {
     margin-top: 53px;
 }
 
-#history {
-    width: 27px;
-    height: 27px;
+#history i {
+    font-size: 24px;
     position: absolute;
-    padding-left: 99px;
-    padding-top: 781px;
+    margin-left: 25px;
+    margin-top: 461px;
 }
 
 #history-text {
     position: absolute;
-    padding-top: 786px;
-    padding-left: 133px;
-}
-
-#inside-big-rec {
-    padding-left: 75px;
-    padding-top: 130px;
-}
-
-#big-rectangle {
-    width: 862px;
-    height: 690px;
-    background-color: #B3D1FF;
-    border-radius: 30px;
-}
-
-#request-details {
-    position: absolute;
-    font-size: 30px;
-    margin-top: 32px;
-    margin-left: 40px;
-}
-
-#ask-for {
-    position: absolute;
-    font-size: 25px;
-    margin-left: 40px;
-    margin-top: 91px;
-}
-
-#ask-for-form {
-    position: absolute;
-    margin-left: 40px;
-    margin-top: 126px;
-    font-size: 16px;
-    display: flex;
-    flex-wrap: wrap;
-    width: 250px;
-    flex-direction: column;
-}
-
-#first-two-options {
-    margin-right: 5px;
-}
-
-#second-two-options {
-    margin-right: 5px;
-}
-
-.form-group {
-    display: flex;
-    align-items: center;
-    margin-right: 20px; /* Space between pairs */
-    margin-bottom: 10px; /* Space between rows */
-}
-
-input[type="radio"] {
-    margin-right: 5px; /* Space between radio button and label */
-}
-
-#girls{
-    margin-right: 0px;
-}
-
-#details-form {
-    position: absolute;
-    margin-left: 40px;
-    margin-top: 212px;
-}
-
-select[name="age"] {
+    margin-top: 463px;
+    margin-left: 63px;
     width: 200px;
-    height: 30px;
+    font-size: 18px;
 }
-
-select[name="type"] {
-    width: 200px;
-    height: 30px;
-}
-
-select[name="size"] {
-    width: 200px;
-    height: 30px;
-}
-
-select[name="color"] {
-    width: 200px;
-    height: 30px;
-}
-
-
-#classification {
-    position: absolute;
-    margin-top: 400px;
-}
-
-
-input[type="submit"] {
-    height: 29px;
-    width: 222px;
-    background-color: #3D8AF7;
-    border-color: #3D8AF7;
-    color: white;
-}
-
-
-
-#request-white-rec {
-    position: absolute;
-}
-
-#rec-size {
-    width: 447px;
-    height: 533px;
-    background-color: white;
-    border-radius: 24px;
-    margin-left: 380px;
-    margin-top: 60px;
-}
-
-#no-clothes-img {
-    width: 86px;
-    height: 86px;
-    position: absolute;
-    margin-left: 561px;
-    margin-top: 246px;
-}
-
-#no-clothes {
-    position: absolute;
-    margin-left: 461px;
-    font-size: 24px;
-    margin-top: 338px;
-}
-
-#save-bttn {
-    position: absolute;
-    width: 286px;
-    height: 44px;
-    margin-left: 461px;
-    margin-top: 599px;
-    font-size: 24px;
-    border-color: #3D8AF7;
-}
-
-#rectangle2{
-    width: 426px;
-    height: 690px;
-    background-color: #B3D1FF;
-    border: 30px;
-    margin: 20px;
-    padding: 20px;
-    border-radius:  30px;
-}
-
-#rectangle3{
-    width: 360px;
-    height: 297px;
-    background-color: #B3D1FF;
-    border: 30px;
-    margin: 20px;
-    padding: 20px;
-    border-radius:  30px;
-}
-
