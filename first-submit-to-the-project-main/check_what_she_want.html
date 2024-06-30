@@ -62,8 +62,81 @@
             </div>
             <div id="history"><i class="fa-solid fa-clock-rotate-left"></i></div>
             <p id="history-text">Requests History</p>
-            
-        </div>
+          </div>
+          <div id="inside-big-rec">
+            <div id="big-rectangle">
+              <p id="request-details"><b>Request Details</b></p>
+              <p id="ask-for">Ask for :</p>
+              <form id="ask-for-form">
+                <div id="first-two-options">
+                  <input type="radio" id="boys" name="ask-for" value="Boys" disabled>
+                  <label for="boys">Boys</label>
+                  <input type="radio" id="girls" name="ask-for" value="Girls" checked disabled>
+                  <label for="girls">Girls</label>
+                </div>
+                <div id="second-two-options">
+                  <input type="radio" id="men" name="ask-for" value="Men" disabled>
+                  <label for="men">Men</label>
+                  <input type="radio" id="women" name="ask-for" value="Women" disabled>
+                  <label for="women">Women</label>
+                </div>
+                <label id="age-label">Age &nbsp;
+                  <select name="age" disabled>
+                    <option name="1">1</option>
+                    <option name="2">2</option>
+                    <option name="3">3</option>
+                    <option name="4">4</option>
+                  </select>
+                </label>
+                <label id="type-label">Type 
+                  <select name="type" disabled>
+                    <option name="1">Dress</option>
+                    <option name="2">pants</option>
+                    <option name="3">shirts</option>
+                    <option name="4">jackets</option>
+                  </select>
+                </label>
+                <label id="size-label">Size &nbsp;
+                  <select name="size" disabled>
+                    <option name="1">1</option>
+                    <option name="2">2</option>
+                    <option name="3">3</option>
+                    <option name="4">4</option>
+                  </select>
+                </label>
+                <label id="color-label">Color
+                  <select name="color" disabled>
+                    <option name="1">pink</option>
+                    <option name="2">blue</option>
+                    <option name="3">black</option>
+                    <option name="4">red</option>
+                  </select>
+                </label>
+                <p id="classification">Classification :</p>
+                <div id="first-part">
+                  <input type="radio" id="summer" name="ask-for" value="Summer" checked disabled>
+                  <label for="summer">Summer</label>
+                  <input type="radio" id="winter" name="ask-for" value="Winter" disabled>
+                  <label for="winter">Winter</label>
+                </div>
+                <div id="second-part">
+                  <input type="radio" id="accessories" name="ask-for" value="Accessories" disabled>
+                  <label for="accessories">Accessories</label>
+                  <input type="radio" id="other" name="ask-for" value="Other" disabled>
+                  <label for="other">Other</label>
+                </div>
+                <input type="submit" value="Check in storage">
+              </form>
+              <div id="dote1"><i class="fa-solid fa-circle"></i></div>
+              <div id="dote2"><i class="fa-solid fa-circle"></i></div>
+              <div id="request-white-rec">
+                <div id="rec-size"></div>
+                <img id="no-clothes-img" src="img/no-clothes-added-icon.png">
+                <p id="no-clothes"><strong>All the clothe in storage</strong></p>
+                <input id="save-bttn" type="submit" value="Save">
+            </div>
+            </div>
+          </div>
             </div>
           </div>
         </div>
