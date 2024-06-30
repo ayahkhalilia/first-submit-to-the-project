@@ -86,7 +86,7 @@ header h2 {
 }
 
 
-/*home and date*/
+
 main h2 {
     padding-left: 30px;
     padding-top: 19px;
@@ -101,7 +101,7 @@ main h4 {
     font-size: 15px;
 }
 
-/*haifa rectangle*/
+
 #rectangles {
    position: absolute;
 }
@@ -229,18 +229,35 @@ main h4 {
 
 
 
-/*lists rectangles*/
 #list-rec1 {
     width: 394px;
     height: 690px;
     background-color: #B3D1FF;
     border-radius: 22px;
     position: absolute;
-    margin-left: 449px;
+    margin-left: 475px;
     margin-top: 130px;
     overflow: hidden;
 }
 
+#inside-list-rec {
+    height: 570px;    
+}
+
+.container {
+    height: 570px; 
+    width: 395px;
+    overflow-y: auto; 
+    border: 0px solid #ccc; 
+    padding: 10px; 
+}
+
+#dono-req {
+    font-size: 24px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 80px;
+}
 
 h1 {
     color: black;
@@ -281,18 +298,15 @@ li div {
     font-size: 18px;
     height: 24px;
     margin-left: 40px;
-    margin-top: 53px;
+    margin-top: 55px;
     border-radius: 90px;
     border: white;
 }
 
-#scroll-button {
-    width: 394px;
-    height: 30px;
-    font-size: 30px;
-    border-radius: 45px;
-    border: #B3D1FF;
-
+#filter {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 330px;
 }
 
 #list-rec2 {
@@ -301,9 +315,21 @@ li div {
     background-color: #B3D1FF;
     border-radius: 22px;
     position: absolute;
-    margin-left: 900px;
+    margin-left: 940px;
     margin-top: 130px;
     overflow: hidden;
+    
+}
+
+#inside-list-rec2 {
+    height: 570px;
+}
+
+#clothes-req {
+    font-size: 24px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 90px;
 }
 
 a {
@@ -311,13 +337,26 @@ a {
     color: black;
 }
 
+#add-circle {
+    background-color: #B3D1FF;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    margin-top: 530px;
+    border-radius: 35px;
+    margin-left: 310px;
+    border-color: #B3D1FF;
+}
+
+#add-circle i {
+    margin-left: 2px;
+    font-size: 40px;
+    margin-top: 5px;
+
+}
 
 
 
-
-
-
-/*check_what_she_want page arrow*/
 #back-to-homepage {
     position: absolute;
 }
@@ -563,7 +602,7 @@ a {
 #inside-big-rec {
     margin-left: 419px;
     position: absolute;
-    margin-top: -113px;
+    margin-top: -143px;
 }
 
 #big-rectangle {
