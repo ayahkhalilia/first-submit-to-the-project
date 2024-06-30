@@ -1,38 +1,45 @@
 {
-    "category":"Donations Requests",
+    
     "requests": [
         {
-          "img":"img/karen-smith.png",
-          "name": "Karen Smith",
+          "url":"donor_request_detail.html",
+          "img":"img/maia-levi.png",
+          "name": "Maia Levi",
           "detail": "3 shirts,2 pants,1 shoes"
         },
         {
+            "url":"#",
             "img":"img/william-long.png",
             "name": "William Long",
           "detail": "5 jackets,3 shoes"
         },
 
         {
+            "url":"#",
             "img":"img/liam-peterson.png",
             "name": "Liam Peterson",
             "detail": "3 suits,4 shirts,5 pants"
         },
         {
+            "url":"#",
             "img":"img/maria-kyle.png",
             "name": "Maria Kyle",
             "detail": "1 baby shoes,1 baby clothe"
         },
         {
+            "url":"#",
             "img":"img/mason-young.png",
             "name": "Mason Young",
             "detail": "4 shorts,3 pants,2 sport shoes"
         },
         {
+            "url":"#",
             "img":"img/nami-evir.png",
             "name": "Nami Evir",
             "detail": "3 shirts,2 pants,1 shoes"
         },
         {
+            "url":"#",
             "img":"img/linda-miller.png",
             "name": "Linda Miller",
             "detail": "3 shirts,2 pants,1 shoes"
