@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>home page</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="funcs_file.js"> type="text/javasccript"</script>
+	</head>
+	<body>
+        <header>
+           
+        </header><div id="wrapper"></div>
+        <main>
+            <form id="addPersonForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="url">URL:</label>
+                <input type="url" id="url" name="url" required>
+                <br>
+                <label for="img">Image URL:</label>
+                <input type="url" id="img" name="img" required>
+                <br>
+                <label for="details">Details:</label>
+                <textarea id="details" name="details" required></textarea>
+                <br>
+                <button id="add-person" type="submit">Add</button>
+            </form>
+            <script>
+                document.getElementById('addPersonForm').addEventListener('submit', function(event) {
+                    event.preventDefault(); 
+                    const name = document.getElementById('name').value;
+                    const url = document.getElementById('url').value;
+                    const img = document.getElementById('img').value;
+                    const details = document.getElementById('details').value;
+                    const person = {
+                        url: url,
+                        img: img,
+                        name: name,
+                        detail: details
+                    };
+                    sessionStorage.setItem('newPerson', JSON.stringify(person));
+                    window.location.href = 'index.html';
+                });
+            </script>
+            
+
+        </main></div>
+	</body>
+</html>
