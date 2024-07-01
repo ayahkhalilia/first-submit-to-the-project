@@ -821,4 +821,11 @@ input[type="submit"] {
 /* align-items: flex-start; */
 
 }
+#RecentRequest h2 {
+    color: #0C59CF;
+top:-5px;
+margin-left:-20px;
+font-size: 17px;
+position: relative;
+}
 
