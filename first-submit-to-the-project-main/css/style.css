@@ -614,3 +614,13 @@ margin-left: 10px;
     .form-section label {
         margin-bottom: 5px;
     }
+    .form-section input,
+.form-section select {
+    width: 100%;
+    padding: 12px; 
+    font-size: 18px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
