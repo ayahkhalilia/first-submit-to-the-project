@@ -635,3 +635,7 @@ button {
     align-self: center;
     font-size: 18px;
 }
+#title{
+    color: #0849A3;
+    justify-content: center;
+}
