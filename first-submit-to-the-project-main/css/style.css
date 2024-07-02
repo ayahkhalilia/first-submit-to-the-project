@@ -230,3 +230,33 @@ position: relative;
     font-size: 24px;
 
 }
+
+.maia_info #email-text{
+    position: absolute;
+    display: flex;
+    top: 215px;
+    left: 88px;
+
+}
+.maia_info #mail-icon i{
+    position: absolute;
+    display: flex;
+    top: 212px;
+    left: 56px;
+    font-size: 22px;
+
+}
+.maia_info #all_donation{
+    position: absolute;
+    display: flex;
+    top: 253px;
+    left: 64px;
+    
+}
+.maia_info #history_icon i{
+    position: absolute;
+    display: flex;
+    top: 249px;
+    left: 40px;
+    font-size: 20px;
+}
