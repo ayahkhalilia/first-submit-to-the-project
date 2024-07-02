@@ -4,117 +4,123 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>home page</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style.css">
         <script src="funcs_file.js"> type="text/javasccript"</script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
 
 	</head>
 	<body>
-        <header>   
+        <header>
+
             <div id="logo"><img src="img/logoImg.jpg"></div>
-            <h1 id="donoclothes">DonoClothes</h1>
-            
-          <div id="left_content_for_header">
+            <h1>DonoClothes</h1>
+    
+            <div id="right_content_for_header">
                 <h2>Hi,Danial</h2>
                 <div id="danialimg"><img src="img/danialImg.png"></div>
-          </div>
-        </header><div id="wrapper"></div>
-        <main>
-            <h1 id="title">Donation form</h1>
-            <div class="container">
-                
-                <form id="addPersonForm">
-                    <div class="form-section" id="personal-info">
-                        <h2>personal info </h2>
-                        <label for="full-name">Full Name:</label>
-                        <input type="text" id="full-name" name="full-name" required>
-                        
-                        <label for="phone">Phone No:</label>
-                        <input type="tel" id="phone" name="phone" required>
-                        
-                        <label for="age">Age:</label>
-                        <input type="number" id="age" name="age" required>
-                        
-                        <label for="city">City:</label>
-                        <input type="text" id="city" name="city" required>
-                        
-                        <label for="street">Street:</label>
-                        <input type="text" id="street" name="street" required>
-                        
-                        <label for="address-line">Address Line:</label>
-                        <input type="text" id="address-line" name="address-line" required>
-                    </div>
-<div class="form-section" id="clothes-info">
-                <h2>Clothes Info</h2>
-                <label for="donate-for">Donate For:</label>
-                <select id="donate-for" name="donate-for" required>
-                    <option value="choose">choose</option>
-
-                    <option value="women">Women</option>
-                    <option value="men">Men</option>
-                    <option value="girls">Girls</option>
-                    <option value="boys">Boys</option>
-                </select>
-                
-                <label for="type">Type:</label>
-                <select id="type" name="type" required>
-                    <option value="choose">choose</option>
-
-                    <option value="shirt">Shirt</option>
-                    <option value="pants">Pants</option>
-                    <option value="jacket">Jacket</option>
-                    <option value="shoes">Shoes</option>
-                </select>
-                
-                <label for="size">Size:</label>
-                <select id="size" name="size" required>
-                    <option value="choose">choose</option>
-
-                    <option value="s">S</option>
-                    <option value="m">M</option>
-                    <option value="l">L</option>
-                    <option value="xl">XL</option>
-                </select>
-                
-                <label for="color">Color:</label>
-                <select id="color" name="color" required>
-                    <option value="choose">choose</option>
-
-                    <option value="red">Red</option>
-                    <option value="blue">Blue</option>
-                    <option value="green">Green</option>
-                    <option value="black">Black</option>
-                </select>
-                
-                <label for="status">Status:</label>
-                <select id="status" name="status" required>
-                    <option value="choose">choose</option>
-
-                    <option value="new">New</option>
-                    <option value="used">Used</option>
-                    <option value="good situation">good situation</option>
-
-                </select>
-                
-                <label for="classification">Classification:</label>
-                <select id="classification" name="classification" required>
-                    <option value="choose">choose</option>
-
-                    <option value="winter">Winter</option>
-                    <option value="summer">Summer</option>
-                    <option value="accessories">Accessories</option>
-                    <option value="other">Other</option>
-                </select>
-                
-                <label for="picture">Upload Picture:</label>
-                <input type="file" id="picture" name="picture" accept="image/*" >
             </div>
+        </header>
+    <div id="wrapper"></div>
+    <main>
+        <div id="back-to-homepage">
+            <a href="index.html" class="back-arrow">&larr;</a>
+            <div id="home_img"><i class="fa-solid fa-house"></i></div>
+        </div>
+        <h1 id="title">Donation form</h1>
+        <div class="container">
             
+            <form id="addPersonForm">
+                <div class="form-section" id="personal-info">
+                    <h2>personal info </h2>
+                    <label for="full-name">Full Name:</label>
+                    <input type="text" id="full-name" name="full-name" required>
+                    
+                    <label for="phone">Phone No:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" required>
+                    
+                    <label for="city">City:</label>
+                    <input type="text" id="city" name="city" required>
+                    
+                    <label for="street">Street:</label>
+                    <input type="text" id="street" name="street" required>
+                    
+                    <label for="address-line">Address Line:</label>
+                    <input type="text" id="address-line" name="address-line" required>
+                </div>
+<div class="form-section" id="clothes-info">
+            <h2>Clothes Info</h2>
+            <label for="donate-for">Donate For:</label>
+            <select id="donate-for" name="donate-for" required>
+                <option value="choose">choose</option>
 
-            <button type="submit">Submit</button>
+                <option value="women">Women</option>
+                <option value="men">Men</option>
+                <option value="girls">Girls</option>
+                <option value="boys">Boys</option>
+            </select>
+            
+            <label for="type">Type:</label>
+            <select id="type" name="type" required>
+                <option value="choose">choose</option>
 
-                </form>
-          </div>  
+                <option value="shirt">Shirt</option>
+                <option value="pants">Pants</option>
+                <option value="jacket">Jacket</option>
+                <option value="shoes">Shoes</option>
+            </select>
+            
+            <label for="size">Size:</label>
+            <select id="size" name="size" required>
+                <option value="choose">choose</option>
+
+                <option value="s">S</option>
+                <option value="m">M</option>
+                <option value="l">L</option>
+                <option value="xl">XL</option>
+            </select>
+            
+            <label for="color">Color:</label>
+            <select id="color" name="color" required>
+                <option value="choose">choose</option>
+
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+                <option value="black">Black</option>
+            </select>
+            
+            <label for="status">Status:</label>
+            <select id="status" name="status" required>
+                <option value="choose">choose</option>
+
+                <option value="new">New</option>
+                <option value="used">Used</option>
+                <option value="good situation">good situation</option>
+
+            </select>
+            
+            <label for="classification">Classification:</label>
+            <select id="classification" name="classification" required>
+                <option value="choose">choose</option>
+
+                <option value="winter">Winter</option>
+                <option value="summer">Summer</option>
+                <option value="accessories">Accessories</option>
+                <option value="other">Other</option>
+            </select>
+            
+            <label for="picture">Upload Picture:</label>
+            <input type="file" id="picture" name="picture" accept="image/*" >
+        </div>
+        
+
+        <button type="submit">Submit</button>
+
+            </form>
+      </div>   
             <script>
                 document.getElementById('addPersonForm').addEventListener('submit', function(event) {
                     event.preventDefault(); 
