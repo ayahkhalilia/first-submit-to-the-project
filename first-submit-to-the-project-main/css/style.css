@@ -322,7 +322,6 @@ position: relative;
         height: 690px;
         background-color: #B3D1FF;
         border: 30px;
-        /* margin: 75px; */
         padding: 20px;
         border-radius:  30px;
         position: absolute;
@@ -330,8 +329,38 @@ position: relative;
         top: 250px;
     justify-content: center;
     align-items: center;
-    /* flex-direction: column; */
-    
-    
-    
+
     }
+    #rectangle_2 h2{
+    
+    
+        margin: 0 0 47px 1px;
+        display: inline-block;
+        align-self: center;
+        overflow-wrap: break-word;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 24px;
+        color: #000000;
+
+        margin: 0 19px 3px 0;
+        display: inline-block;
+        overflow-wrap: break-word;
+        font-family: Inter, sans-serif;
+        font-weight:bold;
+        font-size: 24px;
+       
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 31px;
+        
+      
+}
+#rectangle_2 p{
+    position: absolute;
+    left: 45px;
+    top: 104px;
+    color: #0C59CF;
+
+}
