@@ -20,21 +20,35 @@
           </div>
         </header><div id="wrapper"></div>
         <main>
-            <form id="addPersonForm">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <br>
-                <label for="url">URL:</label>
-                <input type="url" id="url" name="url" required>
-                <br>
-                <label for="img">Image URL:</label>
-                <input type="url" id="img" name="img" required>
-                <br>
-                <label for="details">Details:</label>
-                <textarea id="details" name="details" required></textarea>
-                <br>
-                <button id="add-person" type="submit">Add</button>
-            </form>
+            <h1 id="title">Donation form</h1>
+            <div class="container">
+                
+                <form id="addPersonForm">
+                    <div class="form-section" id="personal-info">
+                        <h2>personal info </h2>
+                        <label for="full-name">Full Name:</label>
+                        <input type="text" id="full-name" name="full-name" required>
+                        
+                        <label for="phone">Phone No:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                        
+                        <label for="age">Age:</label>
+                        <input type="number" id="age" name="age" required>
+                        
+                        <label for="city">City:</label>
+                        <input type="text" id="city" name="city" required>
+                        
+                        <label for="street">Street:</label>
+                        <input type="text" id="street" name="street" required>
+                        
+                        <label for="address-line">Address Line:</label>
+                        <input type="text" id="address-line" name="address-line" required>
+                    </div>
+
+        
+
+                </form>
+          </div>  
             <script>
                 document.getElementById('addPersonForm').addEventListener('submit', function(event) {
                     event.preventDefault(); 
