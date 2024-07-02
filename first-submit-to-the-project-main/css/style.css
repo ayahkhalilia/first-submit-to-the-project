@@ -260,3 +260,26 @@ position: relative;
     left: 40px;
     font-size: 20px;
 }
+    .maia_info #location {
+        position: absolute;
+        left: 46px;
+       top: 183px;
+    }
+    
+    .maia_info #phone-num {
+        position: absolute;
+        top: 183px;
+        left: 123.7px;
+    }
+    
+    .maia_info #whatsapp-txt {
+        position: absolute;
+       top: 183px;
+        left: 221px;
+    }
+    
+    #profile-rectangle {
+        padding-top: 263px;
+        padding-left: 81px;
+    }
+    
