@@ -273,6 +273,7 @@ ul {
 }
 
 li {
+    width: 350px;
     background-color: white;
     margin-top: 2px;
     border-radius: 5px;
