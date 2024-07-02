@@ -395,3 +395,38 @@ position: relative;
     align-items: center;
 
 }
+
+#baby_shoes_images {
+    display: flex;
+    position: absolute;
+    justify-content:center;
+margin-left: 10px;
+    align-items: center;
+    /* margin-bottom: 200px; */
+    top: 244px;
+   
+
+}
+#baby_suite_images{
+    display: flex;
+    position: absolute;
+    justify-content:center;
+margin-left: 10px;
+    align-items: center;
+    /* margin-bottom: 200px; */
+    top: 509px;
+    left: 16px;
+   
+}
+#baby_shoes_images img {
+    margin-right: 13px;
+    height: 90px;
+    width: 90px;
+
+
+}
+ #baby_suite_images img {
+    margin-right: 13px;
+    height: 119px;
+    width: 90px;
+}
