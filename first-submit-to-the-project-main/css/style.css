@@ -62,8 +62,8 @@ header {
 #home_img i {
     position: absolute;
     display: flex;
-    margin-left: 80px;
-    margin-top: -33px;
+    margin-left: 67px;
+    margin-top: 22px;
     font-size: 38px;
 }
 
@@ -73,7 +73,7 @@ header {
     cursor: pointer;
     text-decoration: none;
     display:flex;
-    margin-left: -350px;
+    margin-left: 30px;
     margin-top: 25px;
 }
 header h1 {
@@ -640,3 +640,4 @@ button {
     justify-content: center;
     display: flex;
 }
+
