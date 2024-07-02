@@ -534,3 +534,16 @@ margin-left: 10px;
         justify-content: center;
         align-content: center;
     }
+    .delete {
+        width: 207px;
+        height: 30px;
+        background-color: #FF1800;
+        border-radius: 3px;
+        color: #ffffff;
+        position: absolute;
+        left: 50%; /* Center horizontally within #rectangle_3 */
+        transform: translateX(-50%); /* Adjust to center horizontally */
+        bottom: 10px; 
+        justify-content: center;
+        align-content: center;
+    }
