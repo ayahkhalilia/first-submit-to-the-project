@@ -66,23 +66,24 @@ function fetch_list2() {
         wrapper_list.appendChild(list);
     });
 }
+
 function deleteRequest(requestId) {
     sessionStorage.setItem('deletedPerson', requestId);
     window.location.href = 'index.html';
 }
 
- document.getElementById('addPersonForm').addEventListener('submit', function(event) {
-                event.preventDefault();
-                const name = document.getElementById('full-name').value;
-                const url = "donor_request_detail.html"; // Assuming this is the URL for all donor details
-                const img = "img/donor_default.png"; // Replace with the path to a default image or a dynamically uploaded image
-                const details = `${document.getElementById('type').value}, ${document.getElementById('size').value}, ${document.getElementById('color').value}`;
-                const newDonor = {
-                    url: url,
-                    img: img,
-                    name: name,
-                    detail: details
-                };
-                sessionStorage.setItem('newPerson', JSON.stringify(newDonor));
-                window.location.href = 'index.html';
-            });
+document.getElementById('addPersonForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    const name = document.getElementById('full-name').value;
+    const url = "donor_request_detail.html"; // Assuming this is the URL for all donor details
+    const img = "img/donor_default.png"; // Replace with the path to a default image or a dynamically uploaded image
+    const details = `${document.getElementById('type').value}, ${document.getElementById('size').value}, ${document.getElementById('color').value}`;
+    const newDonor = {
+        url: url,
+        img: img,
+        name: name,
+        detail: details
+    };
+    sessionStorage.setItem('newPerson', JSON.stringify(newDonor));
+    window.location.href = 'index.html';
+});
