@@ -606,4 +606,11 @@ margin-left: 10px;
     }
     
    
+    .form-section h2 {
+        margin-bottom: 10px;
+        text-align: center;
+    }
     
+    .form-section label {
+        margin-bottom: 5px;
+    }
