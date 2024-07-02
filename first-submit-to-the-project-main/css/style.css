@@ -483,4 +483,22 @@ margin-left: 10px;
         position: relative;
     }
     
-    
+    #rectangle_3{
+        width: 360px;
+        height: 297px;
+        background-color: #B3D1FF;
+        border: 30px;
+        margin: 0 33px;
+        padding: 0px;
+        border-radius: 30px;
+        position: absolute;
+    left: 999px;   
+     top: 383px;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        flex-direction: column;
+        text-align: center;
+
+        box-sizing: border-box;
+    }
