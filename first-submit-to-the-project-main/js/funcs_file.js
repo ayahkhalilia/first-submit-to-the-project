@@ -50,9 +50,11 @@ function fetch_list2() {
         title.innerHTML = data.category;
         wrapper_list.appendChild(title);
         const list = document.createElement("ul");
+        list.classList.add("custom-list");
         let requests = JSON.parse(localStorage.getItem('requests')) || data.requests;
         data.requests.forEach(request => {
             const li = document.createElement("li");
+            li.classList.add("custom-list-item");
             const link = document.createElement("a");
             link.href = request.url;
             const img = document.createElement("img");

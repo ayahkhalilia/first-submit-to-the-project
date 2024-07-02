@@ -294,6 +294,35 @@ li div {
     flex: 1;
 }
 
+.custom-list {
+    margin-top: 35px;
+}
+
+.custom-list-item {
+    background-color: white;
+    margin-top: 2px;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex; 
+    align-items: center; 
+    font-size: 15px;
+}
+
+.custom-list-item img {
+    margin-right: 10px;
+    width: 71px;
+    height: 72px; 
+}
+
+.custom-list-item div {
+    flex: 1;
+}
+
+.custom-list-item a {
+    text-decoration: none; 
+    color: black;
+}
+
 .search-bar input[type="text"] {
     font-size: 18px;
     height: 24px;
