@@ -72,18 +72,73 @@ function deleteRequest(requestId) {
     window.location.href = 'index.html';
 }
 
-document.getElementById('addPersonForm').addEventListener('submit', function(event) {
-    event.preventDefault();
-    const name = document.getElementById('full-name').value;
-    const url = "donor_request_detail.html"; // Assuming this is the URL for all donor details
-    const img = "img/donor_default.png"; // Replace with the path to a default image or a dynamically uploaded image
-    const details = `${document.getElementById('type').value}, ${document.getElementById('size').value}, ${document.getElementById('color').value}`;
-    const newDonor = {
-        url: url,
-        img: img,
-        name: name,
-        detail: details
-    };
-    sessionStorage.setItem('newPerson', JSON.stringify(newDonor));
-    window.location.href = 'index.html';
+
+document.addEventListener('DOMContentLoaded', function () {
+    const addPersonForm = document.getElementById('addPersonForm');
+
+    addPersonForm.addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        
+        const name = document.getElementById('full-name').value;
+        const url = "donor_request_detail.html";
+        const img = "img/donor_default.png";
+        const details = `${document.getElementById('type').value}, ${document.getElementById('size').value}, ${document.getElementById('color').value}`;
+
+        
+        const newDonor = {
+            url: url,
+            img: img,
+            name: name,
+            detail: details
+        };
+
+       
+        sessionStorage.setItem('newPerson', JSON.stringify(newDonor));
+
+     
+        window.location.href = 'index.html';
+    });
+
+ 
+    function fetchAndRenderDonors() {
+        fetch("data_file.json")
+            .then(response => response.json())
+            .then(data => {
+                let newPerson = sessionStorage.getItem('newPerson');
+                newPerson = newPerson ? JSON.parse(newPerson) : null;
+                let donors = newPerson ? [newPerson, ...data.requests] : data.requests;
+
+                
+                renderDonors(donors, "inside-list-rec");
+                sessionStorage.removeItem('newPerson');
+            })
+            .catch(error => console.error('Error fetching data:', error));
+    }
+
+    function renderDonors(donors, elementId) {
+        const wrapper = document.getElementById(elementId);
+        wrapper.innerHTML = "";
+
+        const list = document.createElement("ul");
+
+        donors.forEach(donor => {
+            const li = document.createElement("li");
+            const link = document.createElement("a");
+            link.href = donor.url;
+            const img = document.createElement("img");
+            img.src = donor.img;
+            const textContent = document.createElement("div");
+            textContent.innerHTML = `${donor.name}<br><br>${donor.detail}`;
+            li.appendChild(img);
+            link.appendChild(textContent);
+            li.appendChild(link);
+            list.appendChild(li);
+        });
+
+        wrapper.appendChild(list);
+    }
+
+    fetchAndRenderDonors();
 });
+
