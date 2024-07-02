@@ -122,22 +122,24 @@
             </form>
       </div>   
             <script>
-                document.getElementById('addPersonForm').addEventListener('submit', function(event) {
-                    event.preventDefault(); 
-                    const name = document.getElementById('name').value;
-                    const url = document.getElementById('url').value;
-                    const img = document.getElementById('img').value;
-                    const details = document.getElementById('details').value;
-                    const person = {
-                        url: url,
-                        img: img,
-                        name: name,
-                        detail: details
-                    };
-                    sessionStorage.setItem('newPerson', JSON.stringify(person));
-                    window.location.href = 'index.html';
-                });
-            </script>
+                       document.getElementById('addPersonForm').addEventListener('submit', function(event) {
+                event.preventDefault();
+                const name = document.getElementById('full-name').value;
+                const url = "donor_request_detail.html"; 
+                const img = "img/donor_default.png"; 
+                const details = `${document.getElementById('type').value}, ${document.getElementById('size').value}, ${document.getElementById('color').value}`;
+                const newDonor = {
+                    url: url,
+                    img: img,
+                    name: name,
+                    detail: details
+                };
+                sessionStorage.setItem('newPerson', JSON.stringify(newDonor));
+                window.location.href = 'index.html';
+            });
+        </script>
+
+            
             
 
         </main></div>
