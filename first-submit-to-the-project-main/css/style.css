@@ -128,3 +128,30 @@ main h4 {
  display: flex;
     flex-direction: column;
 }
+#RecentRequest h2 {
+    color: #0C59CF;
+top:-5px;
+margin-left:-20px;
+font-size: 17px;
+position: relative;
+}
+
+#RecentRequest li {
+    margin-right: 10.5px;
+    width:285px;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 15px;
+   
+    margin-bottom: 3px;
+    left: 10px;
+    display: flex;
+
+
+}
+#RecentRequest ul{
+    margin-top: 10px;
+    margin-left: 10px;
+}
