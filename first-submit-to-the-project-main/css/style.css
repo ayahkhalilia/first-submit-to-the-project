@@ -430,3 +430,57 @@ margin-left: 10px;
     height: 119px;
     width: 90px;
 }
+#second_details p{
+    position: absolute;
+    left: 45px;
+    top: 374px;
+    color: #0C59CF;
+}
+#baby_suit_details {
+    position: absolute;
+    top: 270px;
+
+}
+#baby_shoes_detailes{
+    top: 15px;
+    }
+
+    .requast_p{
+        display: flex;
+        flex-direction: column;
+       
+    position: absolute;
+    }
+    
+    .requast_p ul{
+        list-style-type: none;
+        padding: 0;
+        
+    }
+    
+    .requast_p li{
+        display: grid;
+        grid-template-columns: 216px 200px;
+        align-items: center;
+        margin-bottom: 12px;
+        position: relative;
+        
+        
+        
+    }
+    .tt1{
+        font-size: 16px;
+        margin-right:11px;
+        align-items: center;
+        position: relative;
+        left: 23px;
+        top: 135px;
+    }
+    .tt2{
+        font-size: 16px;
+    left: 47px;
+    top: 135px;
+        position: relative;
+    }
+    
+    
