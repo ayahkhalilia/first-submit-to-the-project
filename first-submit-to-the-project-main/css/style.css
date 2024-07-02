@@ -364,3 +364,34 @@ position: relative;
     color: #0C59CF;
 
 }
+
+
+.circle{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 103px;
+    left: 16px;
+    border-radius: 50%;
+    background-color: #3D8BFD;
+    color: #ffffff;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.circle_2{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 370px;
+    left: 16px;
+    border-radius: 50%;
+    background-color: #3D8BFD;
+    color: #ffffff;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
