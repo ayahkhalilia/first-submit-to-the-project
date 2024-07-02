@@ -638,4 +638,5 @@ button {
 #title{
     color: #0849A3;
     justify-content: center;
+    display: flex;
 }
