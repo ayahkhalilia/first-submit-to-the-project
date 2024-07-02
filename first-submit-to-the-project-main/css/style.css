@@ -502,3 +502,22 @@ margin-left: 10px;
 
         box-sizing: border-box;
     }
+    #rectangle_3 h2{
+        position: absolute;
+        width: 375px;
+        
+     color: rgb(0, 0, 0);
+         padding-left: 8px;
+         top: 36px;
+         text-align: center;
+         margin-right: 10px;
+         justify-content: center; 
+     }
+     #rectangle_3 p{
+         position: absolute;
+         display: flex;
+         color: #3D8AF7;
+         line-height: 36px;
+         font-size: 20px;
+        top: 129px;
+     }
