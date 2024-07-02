@@ -128,12 +128,12 @@ main h4 {
 #rectangle_1 {
     width: 344px;
     height: 513px;
-    background-color: #B3D1FF;
+    background-color:#B3D1FF;
     border: 30px;
     border-radius: 30px;
     position: absolute;
-    left: 81px;
-    top: 383px;
+    margin-left: 81px;
+    margin-top: 345px;
     display: flex;
 
     justify-content: center; 
@@ -356,7 +356,7 @@ position: relative;
         border-radius:  30px;
         position: absolute;
         left:500px;
-        top: 250px;
+        margin-top: 130px;
     justify-content: center;
     align-items: center;
 
@@ -524,7 +524,7 @@ margin-left: 10px;
         border-radius: 30px;
         position: absolute;
     left: 999px;   
-     top: 383px;
+     margin-top: 345px;
         display: flex;
         justify-content: center; 
         align-items: center; 
