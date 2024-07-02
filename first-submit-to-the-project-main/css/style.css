@@ -282,4 +282,39 @@ position: relative;
         padding-top: 263px;
         padding-left: 81px;
     }
+    #accept_rectangle{
+        width: 207px;
+        height: 30px;
+        background-color: #5DC072;
+        border-radius: 3px;
+        /* left: 151px ; */
+        top: 430px;
+        position: absolute;
+        justify-content: center;
+        display: flex;
+        color: white;
+        
+    }
+    #accept_rectangle p ,#decline_rectangle p {
+        position: absolute;
+        top: 5px;
+        color: white;
+        align-content: center;
+    
+    }
+    
+    #decline_rectangle{
+        width: 207px;
+        height: 30px;
+        background-color: #FF1800;
+        border-radius: 3px;
+        /* left: 151px ; */
+        top: 467px;
+        position: absolute;
+        justify-content: center;
+        display: flex;
+        color: white;
+    
+    } 
+    
     
