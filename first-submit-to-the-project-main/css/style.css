@@ -521,3 +521,16 @@ margin-left: 10px;
          font-size: 20px;
         top: 129px;
      }
+     .check-the-date {
+        width: 207px;
+        height: 30px;
+        background-color: #3D8AF7;
+        border-radius: 3px;
+        color: #ffffff;
+        position: absolute;
+        left: 50%; /* Center horizontally within #rectangle_3 */
+        transform: translateX(-50%); /* Adjust to center horizontally */
+        bottom: 47px; 
+        justify-content: center;
+        align-content: center;
+    }
