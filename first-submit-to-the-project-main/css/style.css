@@ -117,3 +117,14 @@ main h4 {
      box-sizing: border-box;
 
 }
+#RecentRequest {
+    width: 266px;
+    height: 129px;
+    background-color: #ffffff;
+    border-radius: 13px;
+    box-sizing: border-box;
+    position:absolute;
+    top: 281px;
+ display: flex;
+    flex-direction: column;
+}
