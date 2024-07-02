@@ -5,6 +5,8 @@
 
 header, main, footer, nav, aside, section, article, div {
     display: block;
+    font-family:Istok web, sans-serif ;
+
 }
 
 body {
@@ -46,6 +48,10 @@ header {
     justify-content: space-between;
     background-color:#B3D1FF;
 }
+#right_header {
+    display: flex;
+    position: absolute;
+}
 
 
 #logo {
@@ -53,7 +59,23 @@ header {
     height: 120px;
     position: absolute;
 }
+#home_img i {
+    position: absolute;
+    display: flex;
+    margin-left: 80px;
+    margin-top: -33px;
+    font-size: 38px;
+}
 
+.back-arrow {
+    position: absolute;
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    display:flex;
+    margin-left: -350px;
+    margin-top: 25px;
+}
 header h1 {
     color: rgb(255, 255, 255);
     top: 30px;
@@ -98,6 +120,9 @@ main h4 {
     color: #0C59CF;
     padding-left: 30px;
     font-weight: lighter;
+}
+#back-to-homepage {
+    position: absolute;
 }
    
 #rectangle_1 {
@@ -202,8 +227,8 @@ position: relative;
 .maia_info #message_icon i {
     position: absolute;
     display: flex;
-    top: 150px; /* Adjust as needed */
-    left: 70px; /* Adjust as needed */
+    top: 150px; 
+    left: 70px; 
     font-size: 24px;
 }
 #message-img i {
@@ -213,6 +238,11 @@ position: relative;
     left: 70px; /* Adjust as needed */
     font-size: 24px;
 
+}
+.maia_info img {
+    width: 30px;
+    height: 30px;
+    
 }
 .maia_info #phone-icon i{
     position: absolute;
@@ -385,8 +415,8 @@ position: relative;
     width: 22px;
     height: 22px;
     position: absolute;
-    top: 370px;
-    left: 16px;
+    top: 357px;
+    left: 0px;
     border-radius: 50%;
     background-color: #3D8BFD;
     color: #ffffff;
@@ -407,6 +437,7 @@ margin-left: 10px;
    
 
 }
+
 #baby_suite_images{
     display: flex;
     position: absolute;
