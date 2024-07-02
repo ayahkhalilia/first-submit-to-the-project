@@ -183,3 +183,50 @@ position: relative;
     position: absolute;
     top: 77px;
 } 
+#maia_img{
+    width: 141px;
+    height: 140px;
+    position: absolute;
+    top: -73px;
+   
+}
+
+.maia_info #pin-img i{
+    position: absolute;
+    display: flex;
+    top: 12px;
+    left: 294px;
+    font-size: 24px;
+    
+}
+.maia_info #message_icon i {
+    position: absolute;
+    display: flex;
+    top: 150px; /* Adjust as needed */
+    left: 70px; /* Adjust as needed */
+    font-size: 24px;
+}
+#message-img i {
+    position: absolute;
+    display: flex;
+    top: 150px; /* Adjust as needed */
+    left: 70px; /* Adjust as needed */
+    font-size: 24px;
+
+}
+.maia_info #phone-icon i{
+    position: absolute;
+    display: flex;
+    top: 150px; /* Adjust as needed */
+    left: 154px; /* Adjust as needed */
+    font-size: 24px;
+
+}
+.maia_info #whatsapp-icon i{
+    position: absolute;
+    display: flex;
+    top: 150px; /* Adjust as needed */
+    left: 246px; /* Adjust as needed */
+    font-size: 24px;
+
+}
