@@ -21,21 +21,21 @@ body {
     min-height: auto; 
     margin: 0;
     padding: 0;
-    
+
 }
 
 
 
-@media screen and(max-width:1440px){
+@media screen and(max-width:992px) {
+    #wrapper {
+        padding: 15px;
+    }
+}
+
+@media screen and(max-width:768px) {
     #wrapper {
         padding: 10px;
     }
-    header{
-        height: auto;
-        flex-direction: column;
-        align-items: center;
-    }
-  
 }
 
 
@@ -51,19 +51,28 @@ header {
 #logo {
     width: 163px;
     height: 120px;
+    position: absolute;
 }
 
 header h1 {
-    padding-top: 43px;
-    color: white;
+    color: rgb(255, 255, 255);
+    top: 30px;
+    left: 158px;
+    height: 68px;
+    font-size: 48px;
+    position: relative;
+}
+#right_content_for_header {
+    display: flex;
+    position: relative;
 }
 
 header h2 {
-    padding-left: 1222px;
-    padding-top: 20px;
-
     font-weight: lighter;
     color: white;
+    top: 47px;
+    right: 30px;
+    position: relative;
     
 }
 #danial{
@@ -71,11 +80,11 @@ header h2 {
     
 
 }
-.danialimg {
+#danialimg {
     width: 88px;
     height: 86px;
     top: 17px;
-    margin-right: 67px;
+    right: 22px;
     position: relative;
 }
 
@@ -90,34 +99,7 @@ main h4 {
     padding-left: 30px;
     font-weight: lighter;
 }
-    
-#rectangle1{
-    width: 344px;
-    height: 513px;
-    background-color: #B3D1FF;
-    border: 30px;
-    margin: 20px;
-    padding: 20px;
-    border-radius:  30px;
-}
-#rectangle2{
-    width: 426px;
-    height: 690px;
-    background-color: #B3D1FF;
-    border: 30px;
-    margin: 20px;
-    padding: 20px;
-    border-radius:  30px;
-}
-#rectangle3{
-    width: 360px;
-    height: 297px;
-    background-color: #B3D1FF;
-    border: 30px;
-    margin: 20px;
-    padding: 20px;
-    border-radius:  30px;
-}
+   
 .rectangles{
 
 
