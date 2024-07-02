@@ -100,7 +100,20 @@ main h4 {
     font-weight: lighter;
 }
    
-.rectangles{
+#rectangle_1 {
+    width: 344px;
+    height: 513px;
+    background-color: #B3D1FF;
+    border: 30px;
+    border-radius: 30px;
+    position: absolute;
+    left: 81px;
+    top: 383px;
+    display: flex;
 
+    justify-content: center; 
+     align-items: center;
+     flex-direction: column;
+     box-sizing: border-box;
 
 }
