@@ -317,4 +317,21 @@ position: relative;
     
     } 
     
+    #rectangle_2{
+        width: 426px;
+        height: 690px;
+        background-color: #B3D1FF;
+        border: 30px;
+        /* margin: 75px; */
+        padding: 20px;
+        border-radius:  30px;
+        position: absolute;
+        left:500px;
+        top: 250px;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
     
+    
+    
+    }
