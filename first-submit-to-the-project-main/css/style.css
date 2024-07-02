@@ -624,3 +624,14 @@ margin-left: 10px;
     border-radius: 5px;
     box-sizing: border-box;
 }
+button {
+    padding: 10px 20px;
+    background-color: #0C59CF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: auto;
+    align-self: center;
+    font-size: 18px;
+}
